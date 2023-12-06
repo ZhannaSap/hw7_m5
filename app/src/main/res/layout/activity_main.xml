@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="12dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_joke"
+        android:layout_margin="12dp"
+        android:textSize="36sp"
+        android:textColor="@color/black"
+        android:paddingHorizontal="12dp"
+        tools:text="My fast food addiction is really starting to cause me issues."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_punchline"
+        android:layout_margin="12dp"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        android:paddingHorizontal="4dp"
+        tools:text="For starters, I can't find anywhere in New York that does a decent cheetah sandwich."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_get_joke"
+        android:text="Get joke"
+        android:layout_marginVertical="28dp"
+        android:textSize="28sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
